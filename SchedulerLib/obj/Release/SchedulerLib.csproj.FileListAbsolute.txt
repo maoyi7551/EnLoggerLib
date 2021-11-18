@@ -1,0 +1,6 @@
+C:\Users\maom\workProjects\measurement\Solutions\SP2_VS2019\GmasServices\SchedulerLib\bin\Release\SchedulerLib.dll
+C:\Users\maom\workProjects\measurement\Solutions\SP2_VS2019\GmasServices\SchedulerLib\bin\Release\SchedulerLib.pdb
+C:\Users\maom\workProjects\measurement\Solutions\SP2_VS2019\GmasServices\SchedulerLib\obj\Release\SchedulerLib.csproj.CoreCompileInputs.cache
+C:\Users\maom\workProjects\measurement\Solutions\SP2_VS2019\GmasServices\SchedulerLib\obj\Release\SchedulerLib.dll
+C:\Users\maom\workProjects\measurement\Solutions\SP2_VS2019\GmasServices\SchedulerLib\obj\Release\SchedulerLib.pdb
+C:\Users\maom\workProjects\measurement\Solutions\SP2_VS2019\GmasServices\SchedulerLib\obj\Release\SchedulerLib.csprojAssemblyReference.cache

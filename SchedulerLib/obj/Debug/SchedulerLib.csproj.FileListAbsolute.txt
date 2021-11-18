@@ -1,0 +1,12 @@
+C:\Users\maom\workProjects\measurement\Solutions\SP2_VS2019\GmasServices\SchedulerLib\bin\Debug\SchedulerLib.dll
+C:\Users\maom\workProjects\measurement\Solutions\SP2_VS2019\GmasServices\SchedulerLib\bin\Debug\SchedulerLib.pdb
+C:\Users\maom\workProjects\measurement\Solutions\SP2_VS2019\GmasServices\SchedulerLib\obj\Debug\SchedulerLib.csproj.CoreCompileInputs.cache
+C:\Users\maom\workProjects\measurement\Solutions\SP2_VS2019\GmasServices\SchedulerLib\obj\Debug\SchedulerLib.dll
+C:\Users\maom\workProjects\measurement\Solutions\SP2_VS2019\GmasServices\SchedulerLib\obj\Debug\SchedulerLib.pdb
+C:\Users\maom\workProjects\measurement\Solutions\SP2_VS2019\GmasServices\SchedulerLib\obj\Debug\SchedulerLib.csprojAssemblyReference.cache
+C:\Users\maom\AzureRepos\GmasService\SchedulerLib\bin\Debug\SchedulerLib.dll
+C:\Users\maom\AzureRepos\GmasService\SchedulerLib\bin\Debug\SchedulerLib.pdb
+C:\Users\maom\AzureRepos\GmasService\SchedulerLib\obj\Debug\SchedulerLib.csproj.CoreCompileInputs.cache
+C:\Users\maom\AzureRepos\GmasService\SchedulerLib\obj\Debug\SchedulerLib.dll
+C:\Users\maom\AzureRepos\GmasService\SchedulerLib\obj\Debug\SchedulerLib.pdb
+C:\Users\maom\AzureRepos\GmasService\SchedulerLib\obj\Debug\SchedulerLib.csprojAssemblyReference.cache
