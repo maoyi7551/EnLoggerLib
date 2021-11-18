@@ -1,10 +1,10 @@
-﻿using log4net;
-using log4net.Appender;
-using log4net.Config;
+﻿using log4net; 
 using System;
 using System.Configuration;
 using System.IO;
 using Microsoft.Extensions.Configuration;
+using log4net.Config;
+using log4net.Appender;
 // 1) Microsoft.Extensions.Configuration, for ConfigurationBuilder
 //2) Microsoft.Extensions.Configuration.Json, for AddJsonFile()
 //3) Microsoft.Extensions.Configuration.FileExtensions, for SetBasePath()

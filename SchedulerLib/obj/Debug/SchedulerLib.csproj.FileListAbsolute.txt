@@ -10,3 +10,9 @@ C:\Users\maom\AzureRepos\GmasService\SchedulerLib\obj\Debug\SchedulerLib.csproj.
 C:\Users\maom\AzureRepos\GmasService\SchedulerLib\obj\Debug\SchedulerLib.dll
 C:\Users\maom\AzureRepos\GmasService\SchedulerLib\obj\Debug\SchedulerLib.pdb
 C:\Users\maom\AzureRepos\GmasService\SchedulerLib\obj\Debug\SchedulerLib.csprojAssemblyReference.cache
+C:\Users\maom\github\EnLoggerLib\SchedulerLib\bin\Debug\SchedulerLib.dll
+C:\Users\maom\github\EnLoggerLib\SchedulerLib\bin\Debug\SchedulerLib.pdb
+C:\Users\maom\github\EnLoggerLib\SchedulerLib\obj\Debug\SchedulerLib.csprojAssemblyReference.cache
+C:\Users\maom\github\EnLoggerLib\SchedulerLib\obj\Debug\SchedulerLib.csproj.CoreCompileInputs.cache
+C:\Users\maom\github\EnLoggerLib\SchedulerLib\obj\Debug\SchedulerLib.dll
+C:\Users\maom\github\EnLoggerLib\SchedulerLib\obj\Debug\SchedulerLib.pdb
