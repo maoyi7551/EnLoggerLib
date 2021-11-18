@@ -6,15 +6,6 @@ allows:
 
 
 # Important: 
-handles the third party to invoke the program, log isn't abel to correct loading config file, because of the the program path is not the execution path. 
-For example window service and Time Schedule. because the execution path (etc. /system32) is different from the program true path.
-in the window service and time shedule case. It is a must to explicitely spec which the log config path is.
-for example the config folder is created under "C:\WindowServices\demo\bin\Debug\", in the application appsetting or web.config file add the entry of "ENLogger_config_path"
-
-  <appSettings>
-    <add key="ENLogger_config_path" value="C:\WindowServices\demo\bin\Debug\" />
-  </appSettings>
-/config
 
 Enlogger.config point to using 
 "<add key="log4netconfig_dev" value ="log4net_Dev.config"/>"
@@ -23,7 +14,33 @@ console
 rollingfile
 email if error
 
-# To use in web application:
+
+
+# Explain 
+Handles the third party invoke the program and .netcore web app, log isn't abel to correct loading config file, because of the the program path is not the execution path. 
+For example window service, Time Schedule and .NetCore, because the execution path (etc. /system32) is different from the program true path.
+It is a must to explicitely spec which the log config path is.
+for example the config folder is created under "C:\WindowServices\demo\bin\Debug\", in the application appsetting or web.config file add the entry of "ENLogger_config_path"
+
+  <appSettings>
+    <add key="ENLogger_config_path" value="C:\WindowServices\demo\bin\Debug\" />
+  </appSettings>
+/config
+
+# Steps in .netCore web app, Window service and TimeSchedule:
+
 1. copy the config folder from the ENLogger under the project.
-2. then declare ILog use ENLoggerManager with name of logger, and location of log file.
-static ILog enlog = ENLoggerManager.GetLogger("Demo", @".\log\Demo.log");
+2. add "ENLogger_config_path" in the application appsetting.jso 
+3.   "AppSettings": {
+    "ENLogger_config_path": "C:\\Demo\\Demo"
+  }
+3. then create ILog using ENLoggerManager with name of logger, and location and name of log file.
+static ILog enlog = ENLoggerManager.GetLogger("Demo Web", @".\log\Demo.log");
+
+# Steps in .netCore app and .netframe work 
+
+1. copy the config folder from the ENLogger under the project.
+3. then create ILog using ENLoggerManager with name of logger, and location and name of log file.
+static ILog enlog = ENLoggerManager.GetLogger("Demo App", @".\log\Demo.log");
+
+
