@@ -1,5 +1,5 @@
 # EnLoggerLib
-The logger build on top of log4net. easy the steps of create the logger in asp.net and asp.netcore.
+The logger build on top of log4net. easy the steps of create the logger in asp.net, doen't support asp.netcore.
 allows:
 1. redirect the log file in case you don't want to use the default file in config file. Project requires generating the different log files under different libs or funcs.
 2. log in .netcore and netframework is in the same lib. (for .netcore still need to do extra step as it requires)
