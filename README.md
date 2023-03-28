@@ -44,7 +44,7 @@ static ILog enlog = ENLoggerManager.GetLogger("Demo Web", @".\log\Demo.log");
 static ILog enlog = ENLoggerManager.GetLogger("Demo App", @".\log\Demo.log");
 ## configuration setting
 | Key        | Type  | Source and Value |Defintion
-| -----------|:---:| :-----:|-----:|
+| -----------|---| -----:|:-----:|
 |  "APPLICATIONINSIGHTS_CONNECTION_STRING"|  string | <appInsight>/Configure/Properties/"Connection String"|Connection string to the AppInsight
 |  "ConnectionStrings:EcomDb_ConnectionString"| string | <azSql>/Setting/Connection strings"|Connection string to the Az SqlServer
 |  "GraphOptions:ClientId"| string | AAD/AppRegistration/<App>/Application ID|Application ID of app registration in AAD that represents the eCommerce API
