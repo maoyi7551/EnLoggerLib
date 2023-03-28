@@ -62,10 +62,10 @@ Prod = api.cpchem.com
 |  "Abacus:PolicyAccess:PolicyStoreOptions:ApiTokenEndpoint": string | "https://login.microsoftonline.com/<tenantID>/oauth2/v2.0/token"|the URl verify the JWT token
 |  "Abacus:PolicyAccess:PolicyStoreOptions:CacheKeyPrefix": string | "Abacus."|Prefix for the cache key
 |  "Abacus:PolicyAccess:PolicyStoreOptions:CacheLifetime": string | "00:05:00"|the cache life time. etc. 5 min.
-|  "Abacus:PolicyAccess:PolicyStoreOptions:FallbackBlobStorageConnectionString": string | StorageAccounts/<Storage>/Security + netWorking/Access Keys/Connection string|Blob storage connection string
-|  "Abacus:PolicyAccess:PolicyStoreOptions:FallbackBlobStorageContainerName": string| "abacus-policies-fallback"|Fallback blob Storage contain name
-|  "Abacus:PolicyAccess:PolicyStoreOptions:IsCacheEnabled": boolean | true/false|enable cache flag.
-|  "Abacus:PolicyAccess:PolicyStoreOptions:PolicyName": string | "cpchem.ecom.api"|the name of policy
-|  "Abacus:PolicyAccess:PolicyStoreOptions:RefreshInterval": string | ""|Interval of refresh the policy
-|  "Abacus:PolicyAccess:PolicyStoreOptions:UseFallbackBlobStorage": boolean| true/false|the flag to use fallback blob storage
-|  "Abacus:PolicyAccess:PolicyEnforcement:DefaultScope": string| "cpchem.ecom.api"|default claim scope
+|  "Abacus:PolicyAccess:PolicyStoreOptions:FallbackBlobStorageConnectionString"| string | StorageAccounts/<Storage>/Security + netWorking/Access Keys/Connection string|Blob storage connection string
+|  "Abacus:PolicyAccess:PolicyStoreOptions:FallbackBlobStorageContainerName"| string| "abacus-policies-fallback"|Fallback blob Storage contain name
+|  "Abacus:PolicyAccess:PolicyStoreOptions:IsCacheEnabled"| boolean | true/false|enable cache flag.
+|  "Abacus:PolicyAccess:PolicyStoreOptions:PolicyName"| string | "cpchem.ecom.api"|the name of policy
+|  "Abacus:PolicyAccess:PolicyStoreOptions:RefreshInterval"| string | ""|Interval of refresh the policy
+|  "Abacus:PolicyAccess:PolicyStoreOptions:UseFallbackBlobStorage"| boolean| true/false|the flag to use fallback blob storage
+|  "Abacus:PolicyAccess:PolicyEnforcement:DefaultScope"| string| "cpchem.ecom.api"|default claim scope
