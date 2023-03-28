@@ -43,4 +43,25 @@ static ILog enlog = ENLoggerManager.GetLogger("Demo Web", @".\log\Demo.log");
 3. then create ILog using ENLoggerManager with name of logger, and location and name of log file.
 static ILog enlog = ENLoggerManager.GetLogger("Demo App", @".\log\Demo.log");
 
-
+|  "APPLICATIONINSIGHTS_CONNECTION_STRING"|  string | <appInsight>/Configure/Properties/"Connection String"|
+|  "ConnectionStrings:EcomDb_ConnectionString"| string | <azSql>/Setting/Connection strings"|
+|  "GraphOptions:ClientId"| string | AAD/AppRegistration/<App>/Application ID|
+|  "GraphOptions:ClientSecret"| string | AAD/AppRegistration/<AppName>/Keys|
+|  "GraphOptions:TenantId"| string | AAD/Properties/Tenant ID|
+|  "AuthorizationConfig:ResourcesId"| string| AAD/<App>/ObjectID|
+|  "AuthorizationConfig:AdminRoleId"| string | "Administrators role defined on the eCommerce API. Different GUID per environment."|
+|  "AuthorizationConfig:MandatoryScope"| string | "eCommerce.FullAccess"|
+|  "Abacus:PolicyAccess:PolicyStoreOptions:ApiBaseAddress"| string | "https://<APIM Hostname>/auth-policies"|
+|  "Abacus:PolicyAccess:PolicyStoreOptions:ApiClientId"| string | AAD/AppRegistration/<App>/Application ID|
+|  "Abacus:PolicyAccess:PolicyStoreOptions:ApiClientSecret"| string | AAD/AppRegistration/<AppName>/Keys|
+|  "Abacus:PolicyAccess:PolicyStoreOptions:ApiScope"| string | "<App ID URI>/.default"|
+|  "Abacus:PolicyAccess:PolicyStoreOptions:ApiTokenEndpoint"| string | "https://login.microsoftonline.com/<tenantID>/oauth2/v2.0/token"|
+|  "Abacus:PolicyAccess:PolicyStoreOptions:CacheKeyPrefix"| string | "Abacus."|
+|  "Abacus:PolicyAccess:PolicyStoreOptions:CacheLifetime"| string | "00:05:00"|
+|  "Abacus:PolicyAccess:PolicyStoreOptions:FallbackBlobStorageConnectionString"| string | StorageAccounts/<Storage>/Security + netWorking/Access Keys/Connection string
+|  "Abacus:PolicyAccess:PolicyStoreOptions:FallbackBlobStorageContainerName"| string| "abacus-policies-fallback"|
+|  "Abacus:PolicyAccess:PolicyStoreOptions:IsCacheEnabled"| boolean | true/false|
+|  "Abacus:PolicyAccess:PolicyStoreOptions:PolicyName"| string | "cpchem.ecom.api"|
+|  "Abacus:PolicyAccess:PolicyStoreOptions:RefreshInterval"| string | ""|
+|  "Abacus:PolicyAccess:PolicyStoreOptions:UseFallbackBlobStorage"| boolean| true/false|
+|  "Abacus:PolicyAccess:PolicyEnforcement:DefaultScope"| string| "cpchem.ecom.api"|
