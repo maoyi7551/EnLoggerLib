@@ -42,6 +42,7 @@ static ILog enlog = ENLoggerManager.GetLogger("Demo Web", @".\log\Demo.log");
 1. copy the config folder from the ENLogger under the project.
 3. then create ILog using ENLoggerManager with name of logger, and location and name of log file.
 static ILog enlog = ENLoggerManager.GetLogger("Demo App", @".\log\Demo.log");
+## configuration setting
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 |  "APPLICATIONINSIGHTS_CONNECTION_STRING"                  | string | <appInsight>/Configure/Properties/"Connection String"
