@@ -44,7 +44,7 @@ static ILog enlog = ENLoggerManager.GetLogger("Demo Web", @".\log\Demo.log");
 static ILog enlog = ENLoggerManager.GetLogger("Demo App", @".\log\Demo.log");
 ## configuration setting
 | Key        | Type  | Source and Value |Defintion
-| -----------|:-----:| :-----:|-----:|
+| -----------|:---:| :-----:|-----:|
 |  "APPLICATIONINSIGHTS_CONNECTION_STRING"|  string | <appInsight>/Configure/Properties/"Connection String"|Connection string to the AppInsight
 |  "ConnectionStrings:EcomDb_ConnectionString"| string | <azSql>/Setting/Connection strings"|Connection string to the Az SqlServer
 |  "GraphOptions:ClientId"| string | AAD/AppRegistration/<App>/Application ID|Application ID of app registration in AAD that represents the eCommerce API
@@ -53,9 +53,7 @@ static ILog enlog = ENLoggerManager.GetLogger("Demo App", @".\log\Demo.log");
 |  "AuthorizationConfig:ResourcesId"| string| AAD/<App>/ObjectID|Object ID of app registration in AAD that represents the eCommerce API
 |  "AuthorizationConfig:AdminRoleId"| string | "Administrators role defined on the eCommerce API. Different GUID per environment."|Represent the admin role in Ecommerce
 |  "AuthorizationConfig:MandatoryScope"| string | "eCommerce.FullAccess"|Authentication Claim scope
-|  "Abacus:PolicyAccess:PolicyStoreOptions:ApiBaseAddress"| string | "https://<APIM Hostname>/auth-policies"|Dev = api-dev.cpchem.com
-Test = api-test.cpchem.com
-Prod = api.cpchem.com
+|  "Abacus:PolicyAccess:PolicyStoreOptions:ApiBaseAddress"| string | "https://<APIM Hostname>/auth-policies"|Dev = api-dev.cpchem.com ,Test = api-test.cpchem.com ,Prod = api.cpchem.com
 |  "Abacus:PolicyAccess:PolicyStoreOptions:ApiClientId"| string | AAD/AppRegistration/<App>/Application ID|Application ID of app registration in AAD that represents the eCommerce API
 |  "Abacus:PolicyAccess:PolicyStoreOptions:ApiClientSecret"| string | AAD/AppRegistration/<AppName>/Keys|The Secret key from the Application
 |  "Abacus:PolicyAccess:PolicyStoreOptions:ApiScope"| string | "<App ID URI>/.default"|scope is requested by the Abacus package for accessing the Abacus Policy Store API
